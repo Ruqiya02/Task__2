@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('#button1').click(function(){
+        $('img').width(500).height(500)
+        $('#button1').hide()
+        $('#button2').show()
+    })
+    $('#button2').click(function(){
+        $('img').width(200).height(200)
+        $('#button2').hide()
+        $('#button1').show()
+    })
+})
